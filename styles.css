@@ -232,18 +232,21 @@ h1 span {
 }
 
 .search-button {
-  width: 42px;
+  width: 65px;
   height: 42px;
-  flex: 0 0 42px;
-  display: grid;
-  place-items: center;
-  margin-right: 2px;
+  flex: 0 0 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-right: 3px;
   padding: 0;
   border: 0;
   border-radius: 5px;
   color: #667568;
   background: transparent;
   cursor: pointer;
+  font-size: 11px;
 }
 
 .search-button:hover {
@@ -252,8 +255,8 @@ h1 span {
 }
 
 .search-button svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 .field-divider {
